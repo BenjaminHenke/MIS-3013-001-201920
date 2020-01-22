@@ -30,6 +30,21 @@ namespace Variables_Ben_Henke
 
 
             //Make it Dynamic
+            Console.WriteLine("Please enter your first name: >>");
+            firstName = Console.ReadLine();
+
+
+            Console.WriteLine("Please enter your last name: >>");
+           lastName = Console.ReadLine();
+
+
+            Console.WriteLine("Please enter your favorite number: >>");
+            
+
+            favoriteNumber = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(fullName + "has the favorite number of" + favoriteNumber + "\nwhich equates to a crazy number of" + crazyNumber);
+
 
 
             Console.ReadKey();
