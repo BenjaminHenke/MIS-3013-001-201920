@@ -11,9 +11,7 @@ namespace Inclass_part
     {
         static void Main(string[] args)
         {
-            int coin;// this will hold my random int numbers.
-
-            string userInput;// This will hold all my user input/ answers.
+           
 
 
 
@@ -22,19 +20,30 @@ namespace Inclass_part
             string UserInputAsString = console.readline();
             int UserInput;
 
-            if (UserInputAsString == 'Heads')
+
+            if (UserInputAsString == "Heads") ;
             {
-                UserInput = 'Heads';
+                UserInput = 0;
             }
             else
-            { UserInput = 'Tails';
-                 
-            random read = new Random();
+            { UserInput = 1;
+
+                random read = new Random();
 
                 int randomNumber = rad.next(0, 2);
 
-            if (UserInputAsString == 'Trails')
-                Console.ReadKey();
+                if (UserInput == randomNumber) ;
+             
+
+            {
+                Console.WriteLine("Youre Correct");
+
+            }
+                else
+            { 
+                Console.WriteLine("Youre Wrong");
+            }
+                    Console.ReadKey();
 
         
         }
